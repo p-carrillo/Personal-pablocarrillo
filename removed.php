@@ -1,5 +1,5 @@
 <!-- Awards de -->
-							<div class="box awards">
+							<div class="box awards"> 
 								<div class="title">
 									<div class="icon"><i class="fa fa-trophy"></i></div>
 									<div class="text">MY AWARDS</div>
