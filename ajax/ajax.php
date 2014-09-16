@@ -4,7 +4,7 @@
 	}
 
 	$from = 'pablo@pablocarrillo.net';
-	$to = 'pablo.carrillo.garcia@gmail.com';
+	$to = 'pablo@pablocarrillo.net';
 	$subject = 'Mensaje de la página web';
 
 
