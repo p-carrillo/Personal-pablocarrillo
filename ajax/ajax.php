@@ -4,7 +4,8 @@
 	}
 
 	$from = 'pablo@pablocarrillo.net';
-	$subject = 'Mensaje de la p√°gina web';
+	$to = 'pablo.carrillo.garcia@gmail.com';
+	$subject = 'Mensaje de la p·gina web';
 
 
 	$name = isset($_POST["name"]) ? trim($_POST["name"]) : "";
@@ -41,7 +42,7 @@
  		$headers = "From: ".$name." <".$email.">\r\nReply-To: ".$from."";
 
 		//send the email
-		$sent = mail($from,$subject,$message,$headers); 
+		$sent = mail($to,$subject,$message,$headers); 
 		
 		if ($sent){
 			$response = 'Mensaje enviado, muchas gracias.';
