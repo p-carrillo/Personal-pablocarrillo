@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /ajax/
+Disallow: /api/
+Disallow: /css/
+Disallow: /js/
+Disallow: /docs/
+Disallow: /redirects/
+Disallow: /img/
+Disallow: /ajax
+Disallow: /api
+Disallow: /css
+Disallow: /js
+Disallow: /docs
+Disallow: /redirects
+Disallow: /img
