@@ -1,3 +1,18 @@
+#Cache
+
+<FilesMatch "\.(html|htm|php|css|js|woff|png|jpg)$">
+#Header set Cache-Control "max-age=604800, private, proxy-revalidate"
+</FilesMatch>
+
+#normas rewrite
+
+#Options +FollowSymLinks
+RewriteEngine On
+
+#Foce Non-WWW
+
+RewriteCond %{HTTP_HOST} ^www\.pablocarrillo\.net [NC]
+RewriteRule (.*) http://pablocarrillo.net/$1 [L,R=301]
 
 #REdirección www
 
@@ -10,3 +25,4 @@ RewriteRule ^(.*)$ http://pablocarrillo.net/$1 [L,R=301]
 #Error 404:
 
 ErrorDocument 404 /error404.php
+
