@@ -9,18 +9,17 @@
 #Options +FollowSymLinks
 RewriteEngine On
 
-#Force Non-WWW
+#Redirecciones
 
-RewriteCond %{HTTP_HOST} ^www\.pablocarrillo\.net [NC]
-RewriteRule (.*) http://pablocarrillo.net/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.pablocarrillo.es$ [NC]
+RewriteRule ^(.*)$ http://pablocarrillo.net/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^pablocarrillo.es$ [NC]
+RewriteRule ^(.*)$ http://pablocarrillo.net/ [R=301,L]
 
-#REdirección www
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.pablocarrillo.net [NC]
-RewriteCond %{HTTP_HOST} ^www.pablocarrillo.es [NC]
-RewriteCond %{HTTP_HOST} ^pablocarrillo.es [NC]
-RewriteRule ^(.*)$ http://pablocarrillo.net/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.pablocarrillo.me$ [NC]
+RewriteRule ^(.*)$ http://pablocarrillo.net/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^pablocarrillo.me$ [NC]
+RewriteRule ^(.*)$ http://pablocarrillo.net/ [R=301,L]
 
 #Redireccion 404
 
