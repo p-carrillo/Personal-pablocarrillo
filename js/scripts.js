@@ -44,6 +44,12 @@ $(document).ready(function(){
 		}
 	}
 
+	var ano = (new Date).getFullYear();
+
+	$(document).ready(function() {
+		$("#fecha").text( ano );
+	});
+
 	//description rotator
 	$(".description .rotate").textrotator({
 		animation: "dissolve",
