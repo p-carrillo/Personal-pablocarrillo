@@ -786,11 +786,12 @@ a.btn{
 
 .box.tools_i_use .tools .tool{
 	display: inline-block;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	padding: 7px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
 	color: #ffffff;
 	cursor: pointer;
+	font-size: 10px !important;
 }
 
 .testimonials_btns{
@@ -944,6 +945,7 @@ a.btn{
 
 .skills .item .name{
 	margin-bottom: 5px;
+	font-size: 12px;
 }
 
 .skills .section{
@@ -975,14 +977,14 @@ a.btn{
 }
 
 .skills .section .bar_outer{
-	height: 20px;
+	height: 5px;
 	background: rgba(0, 0, 0, 0.1);
 	width: 100%;
 }
 
 .skills .section .bar_inner{
 	position: relative;
-	height: 20px;
+	height: 5px;
 	width:0px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -995,7 +997,7 @@ a.btn{
 	display: none;
 	right: 0px;
 	top: 0px;
-	height: 20px;
+	height: 5px;
 	background: rgba(0, 0, 0, 0.1);
 	color: #ededed;
 	text-shadow: 0 1px 0 #333333;

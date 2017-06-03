@@ -50,6 +50,10 @@ $(document).ready(function(){
 		$("#fecha").text( ano );
 	});
 
+    $(document).change(function() {
+        $("#fecha").text( ano );
+    });
+
 	//description rotator
 	$(".description .rotate").textrotator({
 		animation: "dissolve",
