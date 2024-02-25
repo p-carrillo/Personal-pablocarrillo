@@ -1,3 +1,3 @@
 # pablocarrillo.net
-Peraonal Site, CV online
+Personal Site, CV online
 [pablocarrillo.net](https://pablocarrillo.net/)
